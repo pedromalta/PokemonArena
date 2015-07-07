@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/row2" >
+
+    <include
+        android:id="@+id/viewplayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/playerview" />
+
+    <RelativeLayout
+        android:id="@+id/listPlaces"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/viewplayer"
+        android:background="@color/fightingmedium" >
+
+        <ImageView
+            android:id="@+id/pokeCenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:src="@drawable/pokecentro" />
+
+        <Button
+            android:id="@+id/deposit"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/pokeCenter"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="17dp"
+            android:onClick="deposit"
+            android:text="@string/deposit" />
+
+        <Button
+            android:id="@+id/withdraw"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/deposit"
+            android:layout_alignRight="@+id/deposit"
+            android:layout_below="@+id/deposit"
+            android:onClick="withdraw"
+            android:text="@string/withdraw" />
+
+        <Button
+            android:id="@+id/heal"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/withdraw"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:onClick="heal"
+            android:text="@string/heal" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<color name="row1">#DDDDDD</color>
+	<color name="row2">#CCCCCC</color>
+	<color name="row3">#FFFFFF</color>
+	
+	<color name="market">#46A6FF</color>
+	<color name="gym">#FFDC3E</color>
+	<color name="pokecenter">#FF9B70</color>
+
+	<color name="grasslight">#A7DB8D</color>
+	<color name="grassmedium">#78C850</color>
+	<color name="grassdark">#4E8234</color>
+
+	<color name="poisonlight">#C183C1</color>
+	<color name="poisonmedium">#A040A0</color>
+	<color name="poisondark">#682A68</color>
+
+	<color name="firelight">#F5AC78</color>
+	<color name="firemedium">#F08030</color>
+	<color name="firedark">#9C531F</color>
+
+	<color name="waterlight">#9DB7F5</color>
+	<color name="watermedium">#6890F0</color>
+	<color name="waterdark">#445E9C</color>
+
+	<color name="normallight">#C6C6A7</color>
+	<color name="normalmedium">#A8A878</color>
+	<color name="normaldark">#6D6D4E</color>
+
+	<color name="electriclight">#FAE078</color>
+	<color name="electricmedium">#F8D030</color>
+	<color name="electricdark">#A1871F</color>
+
+	<color name="flyinglight">#C6B7F5</color>
+	<color name="flyingmedium">#AD97F0</color>
+	<color name="flyingdark">#6D5E9C</color>
+
+	<color name="buglight">#C6D16E</color>
+	<color name="bugmedium">#A8B820</color>
+	<color name="bugdark">#6D7815</color>
+
+	<color name="groundlight">#EBD69D</color>
+	<color name="groundmedium">#E0C068</color>
+	<color name="grounddark">#927D44</color>
+
+	<color name="psychiclight">#FA92B2</color>
+	<color name="psychicmedium">#F85888</color>
+	<color name="psychicdark">#A13959</color>
+
+	<color name="ghostlight">#A292BC</color>
+	<color name="ghostmedium">#705898</color>
+	<color name="ghostdark">#493963</color>
+	
+	<color name="rocklight">#A29288</color>
+	<color name="rockmedium">#705848</color>
+	<color name="rockdark">#49392F</color>
+
+	<color name="icelight">#BCE6E6</color>
+	<color name="icemedium">#98D8D8</color>
+	<color name="icedark">#638D8D</color>
+	
+	<color name="dragonlight">#A27DFA</color>
+	<color name="dragonmedium">#7038F8</color>
+	<color name="dragondark">#4924A1</color>
+
+	<color name="fightinglight">#D67873</color>
+	<color name="fightingmedium">#C03028</color>
+	<color name="fightingdark">#7D1F1A</color>
+	
+	
+
+</resources>

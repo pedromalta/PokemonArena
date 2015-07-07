@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/containerNPC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imgNPC"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="6dp"
+        android:src="@drawable/charactersprite_aaron" />
+
+    <TextView
+        android:id="@+id/nomeNPC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@+id/imgNPC"
+        android:textSize="@dimen/normal" />
+
+    <TextView
+        android:id="@+id/levelNPC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_alignLeft="@+id/nomeNPC"
+        android:layout_below="@+id/nomeNPC"
+        android:textSize="@dimen/small" />
+
+    <ImageView
+        android:id="@+id/defeated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/confirmar"
+        android:visibility="invisible" />
+
+</RelativeLayout>

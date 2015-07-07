@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/containerPokeAgenda" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:orientation="vertical">
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+	    <TextView
+	        android:id="@+id/nomePokeAgenda"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginLeft="8dp"
+	        android:layout_marginTop="16dp"
+	        android:shadowColor="@android:color/black"
+	        android:shadowDx="1"
+	        android:shadowDy="1"
+	        android:shadowRadius="2"
+	        android:text=""
+	        android:textColor="@android:color/white"
+	        android:textSize="@dimen/normal" />
+
+	    <ImageView
+	        android:id="@+id/imgPokeAgenda"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/nomePokeAgenda"
+	        android:layout_below="@+id/nomePokeAgenda"
+	        android:contentDescription="@string/PokeAgenda"
+	        android:src="@drawable/p1" />
+
+	    <TextView
+	        android:id="@+id/idPokeAgenda"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBottom="@+id/nomePokeAgenda"
+	        android:layout_toRightOf="@+id/imgPokeAgenda"
+	        android:layout_marginLeft="70dp"
+	        android:shadowColor="@android:color/black"
+	        android:shadowDx="1"
+	        android:shadowDy="1"
+	        android:shadowRadius="2"
+	        android:textColor="@android:color/white"
+	        android:textSize="@dimen/normal"  />
+
+	    <TextView
+	        android:id="@+id/tipo1PokeAgenda"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/imgPokeAgenda"
+	        android:layout_alignTop="@+id/imgPokeAgenda"
+	        android:textSize="@dimen/normal"  />
+
+	    <TextView
+	        android:id="@+id/tipo2PokeAgenda"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:layout_alignTop="@+id/tipo1PokeAgenda"
+	        android:layout_marginLeft="8dp"
+	        android:layout_toRightOf="@+id/tipo1PokeAgenda"
+	        android:textSize="@dimen/normal" />
+	</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/row2"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/attackCommand1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/row1" >
+
+        <TextView
+            android:id="@+id/attack1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:ems="10"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="-"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/smallnormal" />
+
+        <TextView
+            android:id="@+id/type1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/attack1"
+            android:layout_marginLeft="30dp"
+            android:text="-"
+            android:textSize="@dimen/small"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/pp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/attack1"
+            android:layout_alignBottom="@+id/attack1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="-"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/smallnormal"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/attackCommand2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/row2" >
+
+        <TextView
+            android:id="@+id/attack2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:ems="10"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="-"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/smallnormal" />
+
+        <TextView
+            android:id="@+id/type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/attack2"
+            android:layout_marginLeft="30dp"
+            android:text="-"
+            android:textSize="@dimen/small"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/pp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/attack1"
+            android:layout_alignBottom="@+id/attack1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="-"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/smallnormal"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/attackCommand3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/row1" >
+
+        <TextView
+            android:id="@+id/attack3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/row1"
+            android:ems="10"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="-"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/smallnormal" />
+
+        <TextView
+            android:id="@+id/type3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/attack3"
+            android:layout_marginLeft="30dp"
+            android:text="-"
+            android:textSize="@dimen/small"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/pp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/attack1"
+            android:layout_alignBottom="@+id/attack1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="-"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/smallnormal"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/attackCommand4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/row2" >
+
+        <TextView
+            android:id="@+id/attack4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:ems="10"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="-"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/smallnormal" />
+
+        <TextView
+            android:id="@+id/type4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/attack4"
+            android:layout_marginLeft="30dp"
+            android:text="-"
+            android:textSize="@dimen/small"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/pp4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/attack1"
+            android:layout_alignBottom="@+id/attack1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="-"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/smallnormal"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<resources>
+
+    <string name="app_name">Pokemon Arena</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_index">Pokemon Arena</string>
+    <string name="title_activity_pokeAgenda">Poke Agenda</string>
+    <string name="title_activity_player">Pokemon Arena</string>
+    <string name="title_activity_newplayer">Criar novo treinador</string>   
+    <string name="title_activity_startgame">Iniciar jogo</string>    
+    <string name="showPokemon">Create Pokemon.xml</string>
+    <string name="showAttack">Create Attack.xml</string>
+    <string name="player">Jogar</string>
+    <string name="players">2 Players</string>
+    <string name="Training">Training</string>
+    <string name="PokeAgenda">Poke Agenda</string>
+    <string name="MainMenu">Menu Principal</string>
+    <string name="nomedotreinador">Nome do treinador:</string>
+    <string name="selecioneAvatar">Selecione um Avatar Abaixo:</string>
+    <string name="criar">Criar</string>
+    <string name="imgname">Digite um nome e selecione um avatar para criar um novo treinador!</string>
+    <string name="name">Digite um nome para criar um novo treinador!</string>
+    <string name="img">Selecione um avatar para criar um novo treinador!</string>
+    <string name="selecioneTrainer">Selecione um treinador ou crie um novo para jogar!</string>
+    <string name="seusTrainer">Seus treinadores:</string>
+    <string name="newGameDialog">Novo Jogo</string>
+    <string name="novoTrainer">Novo Treinador</string>
+    <string name="apagarTrainer">Apagar Treinador</string>
+    <string name="certezaApagarTrainer">Tem certeza que deseja apagar este treinador</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="speechStart">Ei vamos lutar!</string>
+    <string name="speechWon">Você ganhou!</string>
+    <string name="speechLose">Você perdeu, noob!</string>
+    <string name="level">Nível:</string>
+    <string name="pointsNotEnough">Você não tem pontos suficientes</string>
+    <string name="SeuNovoPokemon">Parabéns pelo seu novo pokemon!!</string>
+    <string name="SeuNovoPokemonEnviadoAoPokecenter">Parabéns, seu novo pokémon foi enviado ao Poke Centro!</string>
+    <string name="cityNotCleared">Você ainda não chegou nesta cidade!</string>
+	<string name="atLeastPokemonForBattle">É perigoso sair por aí sem nem um Pokemon!!</string>
+	<string name="attacks">Ataques</string>
+	<string name="learnAttack">Novo ataque</string>
+	<string name="pokemon">Pokemon</string>
+	<string name="heal">Curar Pokemons</string>
+	<string name="cancelEvolution">Cancelar</string>
+	<string name="cancel">Não aprender</string>
+	<string name="deposit">Depositar Pokemons</string>
+	<string name="withdraw">Retirar Pokemons</string>
+	
+
+    
+    
+
+</resources>

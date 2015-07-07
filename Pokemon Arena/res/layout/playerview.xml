@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/row2" >
+
+    <ImageView
+        android:id="@+id/imagePlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/charactersprite_aaron" />
+
+    <TextView
+        android:id="@+id/nomePlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imagePlayer"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/small" />
+
+    <TextView
+        android:id="@+id/pointsPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nomePlayer"
+        android:layout_below="@+id/nomePlayer"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/normal" />
+
+    <ImageView
+        android:id="@+id/imagePoke1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imagePlayer"
+         android:layout_alignParentLeft="true"
+        android:src="@drawable/p1" />
+
+    <ImageView
+        android:id="@+id/imagePoke2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imagePlayer"
+        android:layout_toRightOf="@+id/imagePoke1"
+        android:src="@drawable/p2" />
+
+    <ImageView
+        android:id="@+id/imagePoke3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imagePlayer"
+        android:layout_toRightOf="@+id/imagePoke2"
+        android:src="@drawable/p3" />
+
+    <ImageView
+        android:id="@+id/imagePoke4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imagePlayer"
+        android:layout_toRightOf="@+id/imagePoke3"
+        android:src="@drawable/p4" />
+
+    <ImageView
+        android:id="@+id/imagePoke5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imagePlayer"
+        android:layout_toRightOf="@+id/imagePoke4"
+        android:src="@drawable/p5" />
+
+    <ImageView
+        android:id="@+id/imagePoke6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imagePlayer"
+        android:layout_toRightOf="@+id/imagePoke5"
+        android:src="@drawable/p6" />
+
+</RelativeLayout>

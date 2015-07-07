@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/pokemon1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/row1" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/p1" />
+
+        <TextView
+            android:id="@+id/nomePokemon1"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="TextView" />
+
+        <ProgressBar
+            android:id="@+id/hpBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="130dp"
+            android:layout_height="4dp"
+            android:layout_below="@+id/nomePokemon1"
+            android:progressDrawable="@drawable/progressbar"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/hp1" />
+
+        <TextView
+            android:id="@+id/hp1"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nomePokemon1"
+            android:layout_below="@+id/nomePokemon1"
+            android:text="hp:" />
+
+        <TextView
+            android:id="@+id/level1"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/hpBar1"
+            android:text="l:50" />
+
+        <TextView
+            android:id="@+id/hpText1"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hp1"
+            android:layout_alignBottom="@+id/hp1"
+            android:layout_alignLeft="@+id/level1"
+            android:text="120/120" />
+
+        <TextView
+            android:id="@+id/status1"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/hpBar1"
+            android:text="ok" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pokemon1empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/row1"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+            android:text="-" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pokemon2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/row2" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/p2" />
+
+        <TextView
+            android:id="@+id/nomePokemon2"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView2"
+            android:text="TextView" />
+
+        <ProgressBar
+            android:id="@+id/hpBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="130dp"
+            android:layout_height="4dp"
+            android:layout_below="@+id/nomePokemon2"
+            android:progressDrawable="@drawable/progressbar"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/hp2" />
+
+        <TextView
+            android:id="@+id/hp2"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nomePokemon2"
+            android:layout_below="@+id/nomePokemon2"
+            android:text="hp:" />
+
+        <TextView
+            android:id="@+id/level2"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/hpBar2"
+            android:text="l:50" />
+
+        <TextView
+            android:id="@+id/hpText2"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hp2"
+            android:layout_alignBottom="@+id/hp2"
+            android:layout_alignLeft="@+id/level2"
+            android:text="120/120" />
+
+        <TextView
+            android:id="@+id/status2"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/hpBar2"
+            android:text="ok" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pokemon2empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/row2"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+            android:text="-" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pokemon3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/row1" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/p3" />
+
+        <TextView
+            android:id="@+id/nomePokemon3"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView3"
+            android:text="TextView" />
+
+        <ProgressBar
+            android:id="@+id/hpBar3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="130dp"
+            android:layout_height="4dp"
+            android:layout_below="@+id/nomePokemon3"
+            android:progressDrawable="@drawable/progressbar"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/hp3" />
+
+        <TextView
+            android:id="@+id/hp3"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nomePokemon3"
+            android:layout_below="@+id/nomePokemon3"
+            android:text="hp:" />
+
+        <TextView
+            android:id="@+id/level3"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/hpBar3"
+            android:text="l:50" />
+
+        <TextView
+            android:id="@+id/hpText3"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hp3"
+            android:layout_alignBottom="@+id/hp3"
+            android:layout_alignLeft="@+id/level3"
+            android:text="120/120" />
+
+        <TextView
+            android:id="@+id/status3"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/hpBar3"
+            android:text="ok" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pokemon3empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/row1"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+            android:text="-" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pokemon4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/row2" >
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/p4" />
+
+        <TextView
+            android:id="@+id/nomePokemon4"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView4"
+            android:text="TextView" />
+
+        <ProgressBar
+            android:id="@+id/hpBar4"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="130dp"
+            android:layout_height="4dp"
+            android:layout_below="@+id/nomePokemon4"
+            android:progressDrawable="@drawable/progressbar"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/hp4" />
+
+        <TextView
+            android:id="@+id/hp4"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nomePokemon4"
+            android:layout_below="@+id/nomePokemon4"
+            android:text="hp:" />
+
+        <TextView
+            android:id="@+id/level4"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/hpBar4"
+            android:text="l:50" />
+
+        <TextView
+            android:id="@+id/hpText4"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hp4"
+            android:layout_alignBottom="@+id/hp4"
+            android:layout_alignLeft="@+id/level4"
+            android:text="120/120" />
+
+        <TextView
+            android:id="@+id/status4"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/hpBar4"
+            android:text="ok" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pokemon4empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/row2"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+            android:text="-" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pokemon5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/row1" >
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/p5" />
+
+        <TextView
+            android:id="@+id/nomePokemon5"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView5"
+            android:text="TextView" />
+
+        <ProgressBar
+            android:id="@+id/hpBar5"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="130dp"
+            android:layout_height="4dp"
+            android:layout_below="@+id/nomePokemon5"
+            android:progressDrawable="@drawable/progressbar"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/hp5" />
+
+        <TextView
+            android:id="@+id/hp5"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nomePokemon5"
+            android:layout_below="@+id/nomePokemon5"
+            android:text="hp:" />
+
+        <TextView
+            android:id="@+id/level5"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/hpBar5"
+            android:text="l:50" />
+
+        <TextView
+            android:id="@+id/hpText5"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hp5"
+            android:layout_alignBottom="@+id/hp5"
+            android:layout_alignLeft="@+id/level5"
+            android:text="120/120" />
+
+        <TextView
+            android:id="@+id/status5"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/hpBar5"
+            android:text="ok" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pokemon5empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/row1"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+            android:text="-" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pokemon6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/row2" >
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/p6" />
+
+        <TextView
+            android:id="@+id/nomePokemon6"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView6"
+            android:text="TextView" />
+
+        <ProgressBar
+            android:id="@+id/hpBar6"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="130dp"
+            android:layout_height="4dp"
+            android:layout_below="@+id/nomePokemon6"
+            android:progressDrawable="@drawable/progressbar"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/hp6" />
+
+        <TextView
+            android:id="@+id/hp6"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nomePokemon6"
+            android:layout_below="@+id/nomePokemon6"
+            android:text="hp:" />
+
+        <TextView
+            android:id="@+id/level6"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/hpBar6"
+            android:text="l:50" />
+
+        <TextView
+            android:id="@+id/hpText6"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hp6"
+            android:layout_alignBottom="@+id/hp6"
+            android:layout_alignLeft="@+id/level6"
+            android:text="120/120" />
+
+        <TextView
+            android:id="@+id/status6"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/hpBar6"
+            android:text="ok" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pokemon6empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/row2"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+            android:text="-" />
+    </RelativeLayout>
+
+</LinearLayout>

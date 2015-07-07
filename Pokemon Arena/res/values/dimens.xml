@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tiny">10dp</dimen>
+    <dimen name="small">16dp</dimen>
+    <dimen name="smallnormal">21dp</dimen>
+    <dimen name="normal">26dp</dimen>
+    <dimen name="big">46dp</dimen>
+    <dimen name="horizontalPadding">2dp</dimen>
+</resources>

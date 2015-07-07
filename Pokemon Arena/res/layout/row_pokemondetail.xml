@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/containerPokemon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/nomePokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/normal" />
+
+    <ImageView
+        android:id="@+id/imgPokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nomePokemon"
+        android:layout_below="@+id/nomePokemon"
+        android:src="@drawable/p1" />
+
+    <TextView
+        android:id="@+id/levelPokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nomePokemon"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/imgPokemon"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/normal" />
+
+    <TextView
+        android:id="@+id/tipo1Pokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgPokemon"
+        android:layout_toRightOf="@+id/imgPokemon"
+        android:textSize="@dimen/normal" />
+
+    <TextView
+        android:id="@+id/tipo2Pokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tipo1Pokemon"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/tipo1Pokemon"
+        android:textSize="@dimen/normal" />
+
+    <TextView
+        android:id="@+id/attack1Pokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/specialPokemon"
+        android:layout_marginLeft="8dp"
+        android:textSize="@dimen/normal" />
+
+    <TextView
+        android:id="@+id/attack2Pokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/attack1Pokemon"
+        android:layout_marginLeft="8dp"
+        android:textSize="@dimen/normal" />
+
+    <TextView
+        android:id="@+id/attack3Pokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/attack2Pokemon"
+        android:layout_marginLeft="8dp"
+        android:textSize="@dimen/normal" />
+
+    <TextView
+        android:id="@+id/attack4Pokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/attack3Pokemon"
+        android:layout_marginLeft="8dp"
+        android:textSize="@dimen/normal" />
+
+    <TextView
+        android:id="@+id/attackPokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tipo1Pokemon"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/imgPokemon"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/normal" />
+
+    <TextView
+        android:id="@+id/defensePokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/attackPokemon"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/imgPokemon"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/normal" />
+
+    <TextView
+        android:id="@+id/speedPokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/defensePokemon"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/imgPokemon"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/normal" />
+
+    <TextView
+        android:id="@+id/specialPokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speedPokemon"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/imgPokemon"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/normal" />
+
+</RelativeLayout>

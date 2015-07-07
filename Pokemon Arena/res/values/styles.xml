@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="AppTheme" parent="android:Theme.Light" />
+
+	<style name="whiteText">
+		<item name="android:shadowColor">@android:color/black</item>
+		<item name="android:shadowDx">1</item>
+		<item name="android:shadowDy">1</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textSize">@dimen/small</item>
+		<item name="android:textColor">@android:color/white</item>
+	</style>
+
+</resources>

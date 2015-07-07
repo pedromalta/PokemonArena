@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/containerPokemon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/row1" >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/p1" />
+
+        <TextView
+            android:id="@+id/nomePokemon"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView"
+            android:text="TextView" />
+
+        <ProgressBar
+            android:id="@+id/hpBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="130dp"
+            android:layout_height="4dp"
+            android:layout_below="@+id/nomePokemon"
+            android:progressDrawable="@drawable/progressbar"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/hp" />
+
+        <TextView
+            android:id="@+id/hp"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nomePokemon"
+            android:layout_below="@+id/nomePokemon"
+            android:text="hp:" />
+
+        <TextView
+            android:id="@+id/level"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/hpBar"
+            android:text="l:50" />
+
+        <TextView
+            android:id="@+id/hpText"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hp"
+            android:layout_alignBottom="@+id/hp"
+            android:layout_alignLeft="@+id/level"
+            android:text="120/120" />
+
+        <TextView
+            android:id="@+id/status"
+            style="@style/whiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/hpBar"
+            android:text="ok" />
+    </RelativeLayout>

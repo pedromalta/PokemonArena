@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/row2"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true" >
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nomeTrainer"
+        android:layout_alignRight="@+id/listImgTrainers"
+        android:layout_alignTop="@+id/nomeTrainer"
+        android:layout_toRightOf="@+id/nomeTrainer"
+        android:onClick="criar"
+        android:paddingLeft="@dimen/horizontalPadding"
+        android:text="@string/criar" />
+
+    <EditText
+        android:id="@+id/nomeTrainer"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/horizontalPadding" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nomeTrainer"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="@dimen/horizontalPadding"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="@string/nomedotreinador"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/small" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nomeTrainer"
+        android:layout_below="@+id/nomeTrainer"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="@dimen/horizontalPadding"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="@string/selecioneAvatar"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/small" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView2"
+        android:background="@color/row3"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dip"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/shadow" />
+
+        <ImageSwitcher
+            android:id="@+id/switcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <Gallery
+            android:id="@+id/listImgTrainers"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#55cccccc"
+            android:gravity="center_vertical"
+            android:spacing="18dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
